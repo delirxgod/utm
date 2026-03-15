@@ -1,0 +1,58 @@
+## Задача 1
+
+km = int(input('Care este viteza in km/h?:'))
+print(f'Viteza exprimata in km/h este egala cu {km} KM/H')
+print(f'Viteza exprimata in mph este egala cu? {0.6214 * km} MPH')
+
+## Задача 2
+
+a = int(input('Care este valoarea pentru nr. a? a ='))
+b = int(input('Care este valoarea pentru nr. b? b ='))
+print(f'a + b ={a+b} ; a - b = {a-b}')
+print(f'a * b = {a*b} ; a : b = {a/b}')
+
+## Задача 3
+
+a = int(input('Care este valoarea pentru nr. a? a ='))
+print(f'{a} , {a * a}, {(a * a) * a}')
+
+## Задача 4
+
+a = int(input('Care este temperatura in grade Celsius?:'))
+print(f'Temperatura in grade Celsius este {a} grade C')
+print(f'Temperatura in grade Fahrenheit este {9/5*a+32} grade F')
+
+## Задача 5
+
+a = int(input('Care este lungimea dreptungului?:'))
+b = int(input('Care este latimea dreptungului?:'))
+print(f'ARIA = {a * b} PERIMETRUL = {(a + b) * 2}')
+
+## Задача 6
+
+import math
+from math import pi
+a = int(input('Care este raza cercului?:'))
+print(f'Diametrul cercului este: {2*a}')
+print(f'Lungimea cercului este: {2*pi*a}')
+print(f'Aria cercului este: {pi*a**2}')
+
+## Задача 7
+
+nume = "Andrei"
+varsta = 37
+angajat = True
+print(nume, varsta, angajat)
+
+## Задача 8
+
+x = 20
+y = 4
+print (x - y)
+
+## Задача 9
+
+prenume = input('Introducu prenumele:')
+nume = input('Introducu numele:')
+varsta = input('Introducu varsta:')
+print(f'Salut {prenume} {nume} ai implinit {varsta} ani!')
